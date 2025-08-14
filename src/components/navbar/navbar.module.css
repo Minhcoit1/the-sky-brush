@@ -53,7 +53,11 @@
     }
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:640px){
+    .links{
+        justify-content: flex-end;
+    }
+    
     .link{
         display: none;
     }
